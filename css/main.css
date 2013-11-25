@@ -43,6 +43,8 @@ body {
 .row a {
   color: #A9ADB1;
   text-decoration: underline;
+}
+.row .linkLeft {
   margin-right: 20px;
 }
 .row p.footer {
@@ -146,6 +148,9 @@ body {
   .row .colright,
   .row .colleft {
     height: auto;
+  }
+  .row .linkLeft {
+    margin-right: 8px;
   }
 }
 @media all and (max-width: 992px) and (min-width: 768px) {
