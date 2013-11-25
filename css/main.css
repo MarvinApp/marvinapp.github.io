@@ -121,7 +121,7 @@ body {
 }
 @media (max-width: 768px) {
   .row h1 {
-    font-size: 62px;
+    font-size: 51px;
     letter-spacing: 1.9px;
   }
   .row h2 {
@@ -129,7 +129,7 @@ body {
   }
   .row h2,
   .row p {
-    padding-left: 10px;
+    padding-left: 5px;
   }
   .row p {
     font-size: 16px;
@@ -144,6 +144,7 @@ body {
   .row .colleft {
     padding-top: 20px;
     padding-left: 0px;
+    padding-bottom: 20px;
   }
   .row .colright,
   .row .colleft {
@@ -160,16 +161,20 @@ body {
   }
   .row h2 {
     font-size: 19px;
+    letter-spacing: 1.1px;
   }
   .row h2,
   .row p {
-    padding-left: 10px;
+    padding-left: 6px;
   }
   .row p {
     font-size: 16px;
   }
   .row .colleft {
     padding: 55px 0 0 45px;
+  }
+  .row .colright {
+    padding-top: 116px;
   }
   .row img {
     width: 240px;
