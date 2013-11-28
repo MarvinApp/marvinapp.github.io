@@ -58,10 +58,19 @@ body {
 .row .colright {
   padding-top: 127px;
 }
+.row .colright .angelhack {
+  text-align: center;
+  width: 154px;
+  margin-top: 25px;
+}
+.row .colright .angelhack img {
+  display: block;
+  margin: 0px auto;
+}
 .row .colleft {
   padding: 55px 0 0 108px;
 }
-.row img {
+.row .colleft img {
   opacity: 1;
   -webkit-animation: fadein 2s;
   /* Safari and Chrome */
@@ -135,17 +144,20 @@ body {
   .row p {
     font-size: 16px;
   }
-  .row img {
-    width: 240px;
-    margin: 0 auto;
-  }
   .row .colright {
     padding-top: 24px;
+  }
+  .row .colright .angelhack {
+    width: 100%;
   }
   .row .colleft {
     padding-top: 20px;
     padding-left: 0px;
     padding-bottom: 20px;
+  }
+  .row .colleft img {
+    width: 240px;
+    margin: 0 auto;
   }
   .row .colright,
   .row .colleft {
@@ -174,11 +186,11 @@ body {
   .row .colleft {
     padding: 55px 0 0 45px;
   }
+  .row .colleft img {
+    width: 240px;
+  }
   .row .colright {
     padding-top: 116px;
-  }
-  .row img {
-    width: 240px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
@@ -196,7 +208,7 @@ body {
   .row .colleft {
     padding: 55px 0 0 45px;
   }
-  .row img {
+  .row .colleft img {
     width: 300px;
   }
 }

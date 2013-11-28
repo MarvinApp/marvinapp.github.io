@@ -60,19 +60,32 @@ body {
 	}
 	.colright{
 		padding-top: 127px;
+
+		.angelhack{
+		    text-align: center;
+		    width: 154px;
+		    margin-top: 25px;
+
+		    img{		    	 
+			    display: block;
+			    margin: 0px auto;
+		    }
+		}
 	}
 	.colleft{
 		padding:55px 0 0 108px;
+
+		img{
+			opacity: 1;
+			-webkit-animation: fadein 2s; /* Safari and Chrome */
+	       -moz-animation: fadein 2s; /* Firefox */
+	        -ms-animation: fadein 2s; /* Internet Explorer */
+	         -o-animation: fadein 2s; /* Opera */
+	            animation: fadein 2s;
+			
+		}
 	}
-	img{
-		opacity: 1;
-		-webkit-animation: fadein 2s; /* Safari and Chrome */
-       -moz-animation: fadein 2s; /* Firefox */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera */
-            animation: fadein 2s;
-		
-	}
+	
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -144,18 +157,22 @@ body {
 			font-size: 16px;
 		}
 		
-		img{
-			width: 240px;
-			margin: 0 auto;
-		}
+		
 		
 		.colright{
 			padding-top: 24px;
+			.angelhack{			
+			    width: 100%;
+			}
 		}
 		.colleft {
 			padding-top: 20px;
 			padding-left: 0px;
 			padding-bottom: 20px;
+			img{
+			width: 240px;
+			margin: 0 auto;
+		}
 		}
 		.colright, .colleft {
 			height: auto;
@@ -183,13 +200,14 @@ body {
 		}
 		.colleft {
 			padding: 55px 0 0 45px;
+			img{
+			width: 240px;
+		}
 		}
 		.colright{
 			padding-top: 116px;
 		}
-		img{
-			width: 240px;
-		}
+		
 	}
 }
 
@@ -208,10 +226,11 @@ body {
 		}
 		.colleft {
 			padding: 55px 0 0 45px;
-		}
-		img{
+			img{
 			width: 300px;
 		}
+		}
+		
 	}
 }
 
