@@ -35,20 +35,17 @@ body {
 		margin-bottom: 15px;
 		font-size: 32px;
 	}
-	h2,p{
+	h2, p, ul{
 		padding-left:12px;
 	}
 
-	p{
+	p, ul{
 		font-size: 18px;
 		padding-right: 3px;
 	}
 	a{
 		color:#A9ADB1;
 		text-decoration: underline;
-	}
-	.linkLeft{
-		margin-right: 20px;
 	}
 
 	p.footer{
@@ -62,14 +59,7 @@ body {
 		padding-top: 127px;
 
 		.angelhack{
-		    text-align: center;
-		    width: 154px;
-		    margin-top: 25px;
-
-		    img{		    	 
-			    display: block;
-			    margin: 0px auto;
-		    }
+		    margin-top: 20px;
 		}
 	}
 	.colleft{
@@ -85,8 +75,19 @@ body {
 			
 		}
 	}
-	
+	ul{
+		li{
+			list-style: none;
+			display: inline;
+			margin-right: 20px
+		}
+		li:last-child{
+			margin-right: 0px;
+		}
+	}
 }
+
+//animations
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -112,6 +113,8 @@ body {
 //     to   { opacity: 1; }
 // }​
 
+
+@import "mediaqueries.less";
 
 
 
@@ -141,98 +144,6 @@ body {
 }
 
 
-@media (max-width: 768px){
-	.row {
-		h1{
-			font-size: 51px;
-			letter-spacing: 1.9px;		
-		}
-		h2{
-			font-size: 19px;
-		}
-		h2, p {
-			padding-left: 5px;
-		}
-		p{
-			font-size: 16px;
-		}
-		
-		
-		
-		.colright{
-			padding-top: 24px;
-			.angelhack{			
-			    width: 100%;
-			}
-		}
-		.colleft {
-			padding-top: 20px;
-			padding-left: 0px;
-			padding-bottom: 20px;
-			img{
-			width: 240px;
-			margin: 0 auto;
-		}
-		}
-		.colright, .colleft {
-			height: auto;
-		}
-		.linkLeft{
-			margin-right: 8px;
-		}
-	}
-}
-@media all and (max-width: 992px) and (min-width: 768px){
-	.row {
-		h1{
-			font-size: 62px;
-			letter-spacing: 1.9px;		
-		}
-		h2{
-			font-size: 19px;
-			letter-spacing: 1.1px;
-		}
-		h2, p {
-			padding-left: 6px;
-		}
-		p{
-			font-size: 16px;
-		}
-		.colleft {
-			padding: 55px 0 0 45px;
-			img{
-			width: 240px;
-		}
-		}
-		.colright{
-			padding-top: 116px;
-		}
-		
-	}
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media all and (max-width: 1200px) and (min-width: 992px){
-
-	.row {
-		h1{
-			font-size: 83px;			
-		}
-		h2{
-			font-size: 25px;
-		}
-		h2, p {
-			padding-left: 10px;
-		}
-		.colleft {
-			padding: 55px 0 0 45px;
-			img{
-			width: 300px;
-		}
-		}
-		
-	}
-}
 
 
 
